@@ -8,7 +8,7 @@
 }
 html,body{width:100%;height:100%;}
 
-body{         background:url('https://hd.unsplash.com/photo-1414877611609-3ff962bb2c92')no-repeat;
+body{background:url('https://hd.unsplash.com/photo-1414877611609-3ff962bb2c92')no-repeat;
   background-size:cover;
   font-family:junge,georgia;
   text-align:center;
@@ -65,59 +65,7 @@ body{         background:url('https://hd.unsplash.com/photo-1414877611609-3ff962
   overflow:hidden;
   transition:all .5s;
 }
-/*FORM*/
-.form{
-  width:100%;
-  height:100px;
-  position:relative;
-}
-
-.sub{
-  width:90%;
-  height:50px;
-  margin:auto;
-  opacity:0;
-  border:none;
-  border-radius:50px;
-  background:rgba(0,0,0,.05);
-  box-shadow:inset 0 0 5px rgba(0,0,0,.4),0 0 0px 5px rgba(0,0,0,.1);
-  transition:all .5s;
-  
-
-}
-
-.email{
-  width:70%;
-  height:70%;
-  margin:1% 0;
-  padding-left:10px;
-  background:none;
-  border:none;
-  font-size:20px;
-}
-
-input:focus{outline:none;}
-
-.button{
-  width:20%;
-  height:100%;
-  float:right;
-  border:none;
-  border-radius:0 50px 50px 0;
-  font-size:16px;
-  background:red;
-  background-color: #49afcd;
-  background-image:linear-gradient(top, #5bc0de, #2f96b4);
-  cursor:pointer;
-  transition:all .5s;
-}
-
-.button:hover{
-  background: #2f96b4;
-  box-shadow:inset 0 1px 5px rgba(0,0,0,.3);
-}
-
-/*footer-follow us*/
+/*footer- follow*/
 .follow{
   width:100%;
   height:100px;
