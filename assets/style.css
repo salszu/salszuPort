@@ -101,6 +101,16 @@ body{background:url('https://hd.unsplash.com/photo-1414877611609-3ff962bb2c92')n
   cursor:pointer;
   
 }
+
+a:link {
+  color:black;
+}
+a:visited {
+  color:#556B2F;
+}
+a:active {
+  color:#99ff00;
+}
 .socialIcon:hover{ color:#49afcd; text-shadow:0 0 20px white;}
 .twitter{ transition-delay:.5s,0; }
 .github{ transition-delay:1s,0; }
