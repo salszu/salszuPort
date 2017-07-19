@@ -3,6 +3,7 @@ window.addEventListener('load',function(){
       subtext = document.querySelector('.subTexts'),
       follow  = document.querySelector('.followUs'),
       social  = document.querySelectorAll('.socialIcon'),
+      portfolio = document.querySelector('.portfolio'),
       delay = 1000; 
   
   
@@ -18,5 +19,6 @@ window.addEventListener('load',function(){
       social[2].style.marginTop='0px';
     },delay*7
   ); 
+  
    
 });
