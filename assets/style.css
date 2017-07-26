@@ -1,6 +1,16 @@
 @import url(http://weloveiconfonts.com/api/?family=brandico);
 @import url(http://weloveiconfonts.com/api/?family=entypo);
-@import url(http://fonts.googleapis.com/css?family=Junge);
+@font-face{
+	font-family: 'MyWebFont';
+	src: url('WebFont.eot');
+	src: url('WebFont.eot?#iefix') format('embedded-opentype'),
+	     url('WebFont.woff') format('woff'),
+	     url('WebFont.ttf') format('truetype'),
+	     url('WebFont.svg#webfont') format('svg');
+
+}
+
+
 *{
   margin:0;
   padding:0;
@@ -9,9 +19,9 @@
 }
 html,body{width:100%;height:100%;}
 
-body{background:url('http://wallpapercave.com/wp/uDeltOg.jpg')no-repeat;
+body{background:url('./pics/markus-spiske-104895.jpg')no-repeat;
   background-size:cover;
-  font-family:junge,georgia;
+  font-family: 'WebFont', Arial, sans-serif;
   text-align:center;
 }
 
@@ -92,7 +102,7 @@ body{background:url('http://wallpapercave.com/wp/uDeltOg.jpg')no-repeat;
 .socialIcons{
   width:100%;
   height:100px;
-  position:relative;  
+  position:relative;
   overflow:hidden;
 }
 
@@ -105,7 +115,7 @@ body{background:url('http://wallpapercave.com/wp/uDeltOg.jpg')no-repeat;
   line-height:100px;
   transition:margin-top .5s,color .5s;
   cursor:pointer;
-  
+
 }
 
 a:link {
@@ -126,7 +136,7 @@ a:active {
   .button{font-size:12px}
 
 }
- 
+
 @media screen and (max-width:600px){
   .welcome,.subText,.sub{background:rgba(255,255,255,.3);}
   .welcome{border-radius:20px 20px 0 0;}
