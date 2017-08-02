@@ -1,10 +1,10 @@
 window.addEventListener('load', function() {
   var welcome = document.querySelector('.greet'),
-    subtext = document.querySelector('.subTexts'),
-    follow = document.querySelector('.followUs'),
-    social = document.querySelectorAll('.socialIcon'),
-    portfolio = document.querySelector('.portfolio'),
-    delay = 1000;
+      subtext = document.querySelector('.subTexts'),
+      follow = document.querySelector('.followUs'),
+      social = document.querySelectorAll('.socialIcon'),
+      portfolio = document.querySelector('.portfolio'),
+          delay = 1000;
 
 
   setTimeout(function() {
