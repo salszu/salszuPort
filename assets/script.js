@@ -1,10 +1,10 @@
 window.addEventListener('load', function() {
   var welcome = document.querySelector('.greet'),
-      subtext = document.querySelector('.subTexts'),
-      follow = document.querySelector('.followUs'),
-      social = document.querySelectorAll('.socialIcon'),
-      portfolio = document.querySelector('.portfolio'),
-          delay = 1000;
+    subtext = document.querySelector('.subTexts'),
+    follow = document.querySelector('.followUs'),
+    social = document.querySelectorAll('.socialIcon'),
+    portfolio = document.querySelector('.portfolio'),
+    delay = 1000;
 
 
   setTimeout(function() {
@@ -13,7 +13,9 @@ window.addEventListener('load', function() {
   setTimeout(function() {
     subtext.style.bottom = '0%';
   }, delay * 1.5);
-  // setTimeout(function(){subtext.style.bottom = '-100%';},delay*1.75);
+  // setTimeout(function(){
+//   subtext.style.bottom = '-100%';
+// },delay * 1.75);
   setTimeout(function() {
     form.style.opacity = '1';
   }, delay * 2);
