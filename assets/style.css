@@ -29,12 +29,7 @@ body {
   font-family: 'entypo', sans-serif;
 }
 .content {
-  width: 100%;
-  height: 400px;
-  position: absolute;
-  left:20px;
-  right:20px;
-  margin-top:200px;
+  
 }
 .welcomeText,
 .form,
@@ -46,31 +41,15 @@ body {
 
 /*welcome text*/
 .welcome {
-  height: 100px;
-  position: relative;
-  /* border-bottom:1px solid; */
-
-  overflow: hidden;
+  
 }
 .greet {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 100%;
   font-size: 48px;
-  text-align: center;
-  line-height: 100px;
-  transition: all .5s;
   color: white;
 }
 
 /*taglines*/
 .subText {
-  width: 100%;
-  height: 100px;
-  position: relative;
-  font-size: 30px;
-  overflow: hidden;
   color: #CBEDB1;
 }
 .subText p {
@@ -79,71 +58,30 @@ body {
   text-align: center;
 }
 .subTexts {
-  width: 100%;
-  position: absolute;
-  bottom: 100%;
-  text-align: center;
-  overflow: hidden;
-  transition: all .5s;
+  
 }
 
 /*footer- follow*/
 .follow {
-  width: 100%;
-  height: 100px;
-  position: relative;
-  overflow: hidden;
+  
 }
 .followUs {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  bottom: 100%;
-  line-height: 100px;
-  text-align: center;
+ 
   font-size: 16px;
-  transition: all .5s;
   color: white;
 }
 .socialIcons {
-  width: 400px;
-  height: 100px;
-  overflow: hidden;
+  
   color: #CBEDB1;
 
 }
 .socialIcon {
-  width: 33%;
-  height: 60px;
-  float: left;
-  margin-top: 60px;
-  font-size: 30px;
-  line-height: 120px;
-  transition: margin-top .5s, color .5s;
+  
   cursor: pointer;
   color: white;
   text-align: center;
 }
 
-/*.photoCred {
-  background-color:black;
-  color:white;
-  text-decoration:none;
-  padding:4px 6px;
-  font-family: Zilla Slab;
-  font-size:12px;
-  font-weight:bold;
-  line-height:1.2;
-  border-radius:3px;
-  height:12px;
-  width:auto;
-  position:relative;
-  vertical-align:middle;
-  top:-1px;
-  fill:white;
-  display:inline-block;
-  padding:2px 3px;
-} */
 a:link {
   color: black;
 }
@@ -158,14 +96,7 @@ a:active {
   ;
   text-shadow: 0 0 20px white;
 }
-.twitter {
-  transition-delay: 0.5s, 0;
-}
-.github {
-  transition-delay: 0.5s, 0;
-}
-.linkedin {
-  transition-delay: 0.5s, 0
+
 }
 @media screen and (max-width:930px) {
   .subTexts p {
