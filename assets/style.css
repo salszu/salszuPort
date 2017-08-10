@@ -41,6 +41,8 @@ body {
 
 /*welcome text*/
 .welcome {
+  margin-top: 200px;
+  
   
 }
 .greet {
@@ -58,7 +60,7 @@ body {
   text-align: center;
 }
 .subTexts {
-  
+  font-size: 34px;
 }
 
 /*footer- follow*/
@@ -71,8 +73,9 @@ body {
   color: white;
 }
 .socialIcons {
-  
+  font-size: 33px;
   color: #CBEDB1;
+  margin-right: 20px;
 
 }
 .socialIcon {
@@ -80,6 +83,7 @@ body {
   cursor: pointer;
   color: white;
   text-align: center;
+  margin: 12px;
 }
 
 a:link {
