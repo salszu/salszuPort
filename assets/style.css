@@ -30,7 +30,7 @@ body {
   font-family: 'entypo', sans-serif;
 }
 .content {
-  
+
 }
 .welcomeText,
 .form,
@@ -43,8 +43,8 @@ body {
 /*welcome text*/
 .welcome {
   margin-top: 200px;
-  
-  
+
+
 }
 .greet {
   font-size: 60px;
@@ -60,13 +60,16 @@ body {
   line-height: 100px;
   text-align: center;
 }
+.portText {
+  text-align:center
+}
 .subTexts {
   font-size: 40px;
 }
 
 /*footer- follow*/
 .follow {
-  
+
 }
 .accord {
   border: none;
@@ -74,7 +77,7 @@ body {
   font: Zilla-Slab;
 }
 .followUs {
- 
+
   font-size: 20px;
   color: white;
 }
@@ -85,7 +88,7 @@ body {
 
 }
 .socialIcon {
-  
+
   cursor: pointer;
   color: white;
   text-align: center;

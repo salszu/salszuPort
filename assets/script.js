@@ -1,4 +1,8 @@
-window.addEventListener('load', function() {
+$(document).ready(function(){
+      $('.carousel').carousel();
+    });
+
+/*window.addEventListener('load', function() {
   var welcome = document.querySelector('.greet'),
     subtext = document.querySelector('.subTexts'),
     follow = document.querySelector('.followUs'),
@@ -32,3 +36,4 @@ window.addEventListener('load', function() {
 
 
 });
+*/
