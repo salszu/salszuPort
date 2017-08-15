@@ -51,6 +51,11 @@ body {
   color: white;
 }
 
+.pizzaImg {
+  width: 564px;
+  height: 162px;
+}
+
 /*taglines*/
 .subText {
   color: #CBEDB1;
