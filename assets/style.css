@@ -99,6 +99,9 @@ body {
   text-align: center;
   margin: 12px;
 }
+.foot {
+  color:#CBEDB1;
+}
 
 a:link {
   color: black;
@@ -111,6 +114,7 @@ a:active {
 }
 .socialIcon:hover {
   color: #CBEDB1;
+  transition-duration: 1s;
   ;
   text-shadow: 0 0 20px white;
 }
