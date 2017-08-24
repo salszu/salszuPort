@@ -51,9 +51,10 @@ h5, p {
   color: white;
 }
 
-.pizzaImg {
-  width: 564px;
-  height: 162px;
+.pizzaImg, .lifeImg {
+  max-width: 100%; 
+  height: auto;
+  
 }
 
 /*taglines*/
@@ -95,6 +96,10 @@ h5, p {
 .material-icons {
   color: #CBEDB1;
   font-size:30px;
+}
+
+#myFooter {
+  background-color: transparent;
 }
 
 
