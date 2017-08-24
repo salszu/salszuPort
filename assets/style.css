@@ -29,8 +29,8 @@ body {
 [class*="entypo-"]:before {
   font-family: 'entypo', sans-serif;
 }
-.content {
-
+h5, p {
+  color: white;
 }
 .welcomeText,
 .form,
@@ -92,6 +92,12 @@ body {
   margin-right: 20px;
 
 }
+.material-icons {
+  color: #CBEDB1;
+  font-size:30px;
+}
+
+
 .socialIcon {
 
   cursor: pointer;
