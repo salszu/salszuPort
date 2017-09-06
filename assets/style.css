@@ -38,7 +38,7 @@ h5, p, li {
 .form,
 .social {
   width: 100%;
-  
+
 
 }
 nav {
@@ -68,9 +68,9 @@ nav {
 }
 
 .pizzaImg, .lifeImg {
-  max-width: 100%; 
+  max-width: 100%;
   height: auto;
-  
+
 }
 
 /*taglines*/
@@ -125,9 +125,17 @@ nav {
   margin-top: 50px;
   margin-bottom: 50px;
 }
+.projects2 {
+  background-color:rgba(0, 0, 0, 0.5);
+  width: 33%;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 .container {
    width: 100%;
-  
+
 }
 .section {
   margin-left:50px;
@@ -135,8 +143,8 @@ nav {
   margin-top: 100px;
   margin-bottom: 50px;
 }
-  
-h2 { 
+
+h2 {
 margin-top : 0px;
 }
 h1 {
@@ -209,9 +217,9 @@ a:active {
     font-size: 8px;
     margin-right: -3%
   }
-  
- 
-  
+
+
+
 
   /* preloader css for materialize page loader
   .preloader-background {
@@ -219,12 +227,12 @@ a:active {
 	align-items: center;
 	justify-content: center;
 	background-color: #eee;
-	
+
 	position: fixed;
 	z-index: 100;
 	top: 0;
 	left: 0;
 	right: 0;
-	bottom: 0;	
+	bottom: 0;
 }
  */
